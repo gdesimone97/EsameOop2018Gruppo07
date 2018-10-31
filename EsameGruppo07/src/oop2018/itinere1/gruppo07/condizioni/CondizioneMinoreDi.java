@@ -22,6 +22,11 @@ public class CondizioneMinoreDi implements Condizione {
     public boolean verifica() {
         return sensore.getValore()<this.valoreDiConfronto;
     }
+
+    @Override
+    public String toString() {
+       return "Tipo condizione: Minore di "+this.valoreDiConfronto+ " - attivata per: ";
+    }
     
     
 }
