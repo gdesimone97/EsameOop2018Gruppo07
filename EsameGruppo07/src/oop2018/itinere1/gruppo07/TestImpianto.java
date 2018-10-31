@@ -22,7 +22,7 @@ import oop2018.itinere1.gruppo07.condizioni.CondizioneMaggioreDi;
 
 /**
  *
- * @author Gennaro
+ * @author gruppo07
  */
 public class TestImpianto {
 
