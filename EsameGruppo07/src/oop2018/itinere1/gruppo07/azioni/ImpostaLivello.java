@@ -20,9 +20,6 @@ public class ImpostaLivello implements Azione {
     }
     @Override
     public void esegui() throws LivelloNonValidoException{
-        if(this.livelloDaImpostare > this.ar.getLivelloMax() || this.livelloDaImpostare < this.ar.getLivelloMin())
-            throw new LivelloNonValidoException();
-        else
             this.ar.setLivello(this.livelloDaImpostare);
     }
 
