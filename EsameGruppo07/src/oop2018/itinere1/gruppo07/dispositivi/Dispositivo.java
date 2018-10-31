@@ -15,7 +15,6 @@ public abstract class Dispositivo {
     
     public Dispositivo(int id) {
         this.id = id;
-        acceso = false;
     }
 
     public int getId() {
