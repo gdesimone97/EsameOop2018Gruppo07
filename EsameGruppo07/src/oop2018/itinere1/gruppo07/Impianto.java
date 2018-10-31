@@ -51,9 +51,12 @@ public class Impianto {
         for (Dispositivo d : dispositivi.values()) {
             tmp += d.toString() + "\n";
         }
+        
+        int i = 1;
+        
         tmp += "\n\n---- Elenco regole ----\n";
         for (Regola r : regole) {
-            tmp += r.toString() + "\n";
+            tmp += i++ + r.toString() + "\n";
         }
 
         return tmp;
