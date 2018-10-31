@@ -27,7 +27,7 @@ public class CondizioneMaggioreDi implements Condizione {
 
     @Override
     public String toString() {
-        return "Tipo condizione: Maggiore di "+this.valoreDiConfronto+ " - attivata per: ";
+        return "Tipo condizione: Maggiore di "+this.valoreDiConfronto+ " - attivata per: "+sensore.toString();
     }
     
     

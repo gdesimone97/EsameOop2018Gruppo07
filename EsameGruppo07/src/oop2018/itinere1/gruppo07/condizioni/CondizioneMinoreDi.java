@@ -25,7 +25,7 @@ public class CondizioneMinoreDi implements Condizione {
 
     @Override
     public String toString() {
-       return "Tipo condizione: Minore di "+this.valoreDiConfronto+ " - attivata per: ";
+       return "Tipo condizione: Minore di "+this.valoreDiConfronto+ " - attivata per: "+sensore.toString();
     }
     
     
