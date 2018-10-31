@@ -5,9 +5,12 @@
  */
 package oop2018.itinere1.gruppo07;
 
+import oop2018.itinere1.gruppo07.azioni.Azione;
+import oop2018.itinere1.gruppo07.condizioni.Condizione;
+
 /**
  *
- * @author fonzdm
+ * @author gruppo07
  */
 public class Regola {
     
@@ -23,20 +26,11 @@ public class Regola {
         return condizione;
     }
 
-    public void setCondizione(Condizione condizione) {
-        this.condizione = condizione;
-    }
-
     public Azione getAzione() {
         return azione;
     }
-
-    public void setAzione(Azione azione) {
-        this.azione = azione;
-    }
-    
    public boolean applica(){
-       
+       if(this.condizione)
    }
     
     
