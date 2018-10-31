@@ -7,7 +7,7 @@ package oop2018.itinere1.gruppo07;
 
 import oop2018.itinere1.gruppo07.azioni.Azione;
 import oop2018.itinere1.gruppo07.condizioni.Condizione;
-import oop2018.itinere1.gruppo07.dispositivi.LivelloNonValidoException;
+
 
 /**
  *
