@@ -7,8 +7,11 @@ package oop2018.itinere1.gruppo07.azioni;
 
 /**
  *
- * @author super
+ * @author gruppo07
  */
-public class ImpostaLivello {
+public class ImpostaLivello implements Azione {
+    AttuatoreRegolabile ar;
+    double livelloDaImpostare;
     
+    public
 }
