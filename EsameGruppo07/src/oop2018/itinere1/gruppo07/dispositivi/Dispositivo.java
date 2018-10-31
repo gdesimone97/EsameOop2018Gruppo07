@@ -17,5 +17,54 @@ public abstract class Dispositivo {
         this.id = id;
         acceso = false;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void accendi() {
+        this.acceso = true;
+    }
+    
+    public void spegni() {
+        this.acceso = false;
+    }
+    
+    public boolean isAcceso() {
+        return acceso;
+    }
+    
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 29 * hash + this.id;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Dispositivo other = (Dispositivo) obj;
+        if (this.id != other.id) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "ID dispositivo: " + id + ", Stato: " + (acceso ? "Acceso" : "Spento   ");
+    }
+    
+    
     
 }
