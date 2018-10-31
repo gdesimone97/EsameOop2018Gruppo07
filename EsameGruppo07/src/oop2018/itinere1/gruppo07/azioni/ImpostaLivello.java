@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package oop2018.itinere1.gruppo07.azioni;
+import oop2018.itinere1.gruppo07.dispositivi.AttuatoreRegolabile;
 
 /**
  *
@@ -13,5 +14,19 @@ public class ImpostaLivello implements Azione {
     AttuatoreRegolabile ar;
     double livelloDaImpostare;
     
-    public
+    public ImpostaLivello(AttuatoreRegolabile ar, double livelloDaImpostare){
+        this.ar = ar;
+        this.livelloDaImpostare = livelloDaImpostare;
+    }
+    @Override
+    public void esegui(){
+        this.ar.setLivello(this.livelloDaImpostare);
+    }
+
+    @Override
+    public String toString() {
+        return "ImpostaLivello{" + "ar=" + ar + ", livelloDaImpostare=" + livelloDaImpostare + '}';
+    }
+    
+   
 }
