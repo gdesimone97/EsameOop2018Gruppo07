@@ -45,7 +45,7 @@ public class Regola {
 
     @Override
     public String toString() {
-        return "Informazione regola - ";
+        return "Informazione regola - "+condizione.toString();
     }
     
    
