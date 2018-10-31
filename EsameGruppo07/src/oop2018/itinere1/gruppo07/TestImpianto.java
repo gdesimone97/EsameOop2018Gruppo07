@@ -5,19 +5,19 @@
  */
 package oop2018.itinere1.gruppo07;
 
-import oop2018.itinere1.gruppoXX.dispositivi.Condizionatore;
-import oop2018.itinere1.gruppoXX.dispositivi.SensoreTemperatura;
-import oop2018.itinere1.gruppoXX.dispositivi.LuceRegolabile;
-import oop2018.itinere1.gruppoXX.dispositivi.SensoreLuminosita;
-import oop2018.itinere1.gruppoXX.dispositivi.Luce;
-import oop2018.itinere1.gruppoXX.dispositivi.Sensore;
-import oop2018.itinere1.gruppoXX.dispositivi.Dispositivo;
-import oop2018.itinere1.gruppoXX.dispositivi.LivelloNonValidoException;
-import oop2018.itinere1.gruppoXX.azioni.Azione;
-import oop2018.itinere1.gruppoXX.azioni.ImpostaStatoAccensione;
-import oop2018.itinere1.gruppoXX.condizioni.Condizione;
-import oop2018.itinere1.gruppoXX.condizioni.CondizioneMinoreDi;
-import oop2018.itinere1.gruppoXX.condizioni.CondizioneMaggioreDi;
+import oop2018.itinere1.gruppo07.dispositivi.Condizionatore;
+import oop2018.itinere1.gruppo07.dispositivi.SensoreTemperatura;
+import oop2018.itinere1.gruppo07.dispositivi.LuceRegolabile;
+import oop2018.itinere1.gruppo07.dispositivi.SensoreLuminosita;
+import oop2018.itinere1.gruppo07.dispositivi.Luce;
+import oop2018.itinere1.gruppo07.dispositivi.Sensore;
+import oop2018.itinere1.gruppo07.dispositivi.Dispositivo;
+import oop2018.itinere1.gruppo07.dispositivi.LivelloNonValidoException;
+import oop2018.itinere1.gruppo07.azioni.Azione;
+import oop2018.itinere1.gruppo07.azioni.ImpostaStatoAccensione;
+import oop2018.itinere1.gruppo07.condizioni.Condizione;
+import oop2018.itinere1.gruppo07.condizioni.CondizioneMinoreDi;
+import oop2018.itinere1.gruppo07.condizioni.CondizioneMaggioreDi;
 
 
 /**
