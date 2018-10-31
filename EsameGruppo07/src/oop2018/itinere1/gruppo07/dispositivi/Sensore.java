@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oop2018.itinere1.gruppoXX.dispositivi;
+package oop2018.itinere1.gruppo07.dispositivi;
 
-import oop2018.itinere1.gruppoXX.dispositivi.Dispositivo;
+import oop2018.itinere1.gruppo07.dispositivi.Dispositivo;
 
 /**
  *
@@ -27,7 +27,7 @@ public abstract class Sensore extends Dispositivo{
         super(id);
     }
     
-        @Override
+    @Override
     public String toString() {
         return super.toString() + " Categoria: Sensore" + " Lettura: " + valore;
     }
