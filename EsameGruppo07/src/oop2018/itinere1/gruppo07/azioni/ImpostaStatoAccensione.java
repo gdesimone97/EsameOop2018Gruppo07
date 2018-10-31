@@ -5,10 +5,25 @@
  */
 package oop2018.itinere1.gruppo07.azioni;
 
+import oop2018.itinere1.gruppo07.dispositivi.Attuatore;
+
 /**
  *
  * @author gruppo07
  */
-public class ImpostaStatoAccensione {
+public class ImpostaStatoAccensione implements Azione{
+    Attuatore attuatore;
+    boolean setOn;
+    
+    public ImpostaStatoAccensione(Attuatore attuatore, boolean setOn){
+        this.attuatore = attuatore;
+        this.setOn = setOn;
+    }
+
+    @Override
+    public void esegui(){
+        
+    }
+    
     
 }
