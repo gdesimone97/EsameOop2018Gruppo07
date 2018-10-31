@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package oop2018.itinere1.gruppo07.azioni;
-import oop2018.itinere1.gruppo07.dispositivi.AttuatoreRegolabile;
+import oop2018.itinere1.gruppo07.dispositivi.*;
 
 /**
  *
@@ -19,8 +19,11 @@ public class ImpostaLivello implements Azione {
         this.livelloDaImpostare = livelloDaImpostare;
     }
     @Override
-    public void esegui(){
-        this.ar.setLivello(this.livelloDaImpostare);
+    public void esegui() throws LivelloNonValidoException{
+        if(this.livelloDaImpostare > this.ar.getLivelloMax() || this.livelloDaImpostare < this.ar.getLivelloMin())
+            throw new LivelloNonVaidoException();
+        else
+            this.ar.setLivello(this.livelloDaImpostare);
     }
 
     @Override
