@@ -7,7 +7,7 @@ package oop2018.itinere1.gruppo07.azioni;
 
 /**
  *
- * @author Gennaro
+ * @author gruppo07
  */
 public interface Azione {
     public void esegui() throws Exception;
