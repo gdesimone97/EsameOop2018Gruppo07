@@ -7,7 +7,7 @@ package oop2018.itinere1.gruppo07.condizioni;
 import oop2018.itinere1.gruppo07.dispositivi.Sensore;
 /**
  *
- * @author desio
+ * @author gruppo07
  */
 public class CondizioneMinoreDi implements Condizione {
     private Sensore sensore;

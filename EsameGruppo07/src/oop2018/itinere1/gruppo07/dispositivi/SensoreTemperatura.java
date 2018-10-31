@@ -7,7 +7,7 @@ package oop2018.itinere1.gruppo07.dispositivi;
 
 /**
  *
- * @author Gennaro
+ * @author gruppo07
  */
 public class SensoreTemperatura extends Sensore {
     

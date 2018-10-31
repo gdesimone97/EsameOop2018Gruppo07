@@ -9,7 +9,7 @@ import oop2018.itinere1.gruppo07.dispositivi.Sensore;
 
 /**
  *
- * @author desio
+ * @author gruppo07
  */
 public class CondizioneMaggioreDi implements Condizione {
     private Sensore sensore;
