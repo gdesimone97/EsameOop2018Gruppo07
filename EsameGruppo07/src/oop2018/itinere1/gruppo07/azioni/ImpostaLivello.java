@@ -25,7 +25,7 @@ public class ImpostaLivello implements Azione {
 
     @Override
     public String toString() {
-        return "";
+        return this.ar.toString();
     }
     
    
