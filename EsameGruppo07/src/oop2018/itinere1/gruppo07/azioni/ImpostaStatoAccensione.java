@@ -31,9 +31,9 @@ public class ImpostaStatoAccensione implements Azione{
     @Override
     public String toString() {
         if(setOn)
-        return "Tipo azione: Accendi - attivata per: ";
+        return "Tipo azione: Accendi - attivata per: " + this.attuatore.toString();
         else
-            return "Tipo azione: Spegni - attivata per: ";
+            return "Tipo azione: Spegni - attivata per: " + this.attuatore.toString();
     }
     
     
