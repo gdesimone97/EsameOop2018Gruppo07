@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oop2018.itinere1.gruppo07.condizioni;
+package oop2018.itinere1.gruppo07.dispositivi;
 
 /**
  *
- * @author Gennaro
+ * @author gruppo07
  */
-public interface Condizione {
-    public boolean verifica();
+public class AttuatoreRegolabile extends Attuatore {
+    
+    
+    
 }
