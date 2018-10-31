@@ -56,7 +56,7 @@ public class Impianto {
         
         tmp += "\n\n---- Elenco regole ----\n";
         for (Regola r : regole) {
-            tmp += i++ + r.toString() + "\n";
+            tmp += i++ + " " + r.toString() + "\n";
         }
 
         return tmp;
