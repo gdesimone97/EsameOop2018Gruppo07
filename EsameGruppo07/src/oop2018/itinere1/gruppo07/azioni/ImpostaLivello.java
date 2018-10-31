@@ -25,7 +25,7 @@ public class ImpostaLivello implements Azione {
 
     @Override
     public String toString() {
-        return "ImpostaLivello{" + "ar=" + ar + ", livelloDaImpostare=" + livelloDaImpostare + '}';
+        return "";
     }
     
    
