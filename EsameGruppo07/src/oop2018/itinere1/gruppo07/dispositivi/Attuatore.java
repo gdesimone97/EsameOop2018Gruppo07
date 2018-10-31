@@ -9,7 +9,7 @@ import oop2018.itinere1.gruppo07.dispositivi.Dispositivo;
 
 /**
  *
- * @author Gennaro
+ * @author gruppo07
  */
 public abstract class Attuatore extends Dispositivo{
     
