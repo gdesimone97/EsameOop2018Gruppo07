@@ -7,6 +7,7 @@ package oop2018.itinere1.gruppo07;
 
 import oop2018.itinere1.gruppo07.azioni.Azione;
 import oop2018.itinere1.gruppo07.condizioni.Condizione;
+import oop2018.itinere1.gruppo07.dispositivi.LivelloNonValidoException;
 
 /**
  *
@@ -29,10 +30,25 @@ public class Regola {
     public Azione getAzione() {
         return azione;
     }
-   public boolean applica(){
-       if(this.condizione)
+   public boolean applica() {
+       if(this.condizione.verifica())
+           try{
+               this.azione.esegui();
+               return true;
+           }
+       catch(Exception ex ){
+           return false;
+       }
+       else
+           return false;
    }
+
+    @Override
+    public String toString() {
+        return "Informazione regola - ";
+    }
     
+   
     
     
 }
