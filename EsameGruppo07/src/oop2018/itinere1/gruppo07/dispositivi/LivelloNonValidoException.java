@@ -9,6 +9,6 @@ package oop2018.itinere1.gruppo07.dispositivi;
  *
  * @author fonzdm
  */
-class LivelloNonValidoException extends Exception {
+public class LivelloNonValidoException extends Exception {
     
 }
