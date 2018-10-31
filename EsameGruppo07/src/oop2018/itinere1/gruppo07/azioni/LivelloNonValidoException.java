@@ -21,7 +21,7 @@ public class LivelloNonValidoException extends Exception {
 
     @Override
     public String toString() {
-        return getMessage()
+        return getMessage()+"Livello impostato non valido";
     }
 
 }
