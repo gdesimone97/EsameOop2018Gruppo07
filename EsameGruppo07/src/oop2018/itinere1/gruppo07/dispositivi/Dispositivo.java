@@ -62,7 +62,7 @@ public abstract class Dispositivo {
 
     @Override
     public String toString() {
-        return "ID dispositivo: " + id + ", Stato: " + (acceso ? "Acceso" : "Spento   ");
+        return "ID dispositivo: " + id + ", Stato: " + (acceso ? "Acceso   " : "Spento   ");
     }
     
     
