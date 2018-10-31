@@ -7,7 +7,7 @@ package oop2018.itinere1.gruppo07.azioni;
 
 /**
  *
- * @author super
+ * @author gruppo07
  */
 public class ImpostaStatoAccensione {
     
