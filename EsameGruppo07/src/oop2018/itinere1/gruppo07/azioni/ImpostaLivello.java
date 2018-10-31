@@ -25,7 +25,7 @@ public class ImpostaLivello implements Azione {
 
     @Override
     public String toString() {
-        return this.ar.toString();
+        return "Tipo azione: Impostazione livello - attivata per: " + this.ar.toString();
     }
     
    
