@@ -22,7 +22,15 @@ public class ImpostaStatoAccensione implements Azione{
 
     @Override
     public void esegui(){
-        
+        if(setOn)
+            this.attuatore.accendi();
+        else
+            this.attuatore.spegni();
+    }
+
+    @Override
+    public String toString() {
+        return "ImpostaStatoAccensione{" + "attuatore=" + attuatore + ", setOn=" + setOn + '}';
     }
     
     
